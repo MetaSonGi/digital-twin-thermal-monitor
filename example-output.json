@@ -1,0 +1,39 @@
+{
+  "model": {
+    "intercept": 4.9571428571428555,
+    "load_coefficient": 20.08571428571429,
+    "residual_scale": 0.10474458731327783,
+    "load_min": 0.0,
+    "load_max": 1.0
+  },
+  "training_samples": 12,
+  "results": [
+    {
+      "load": 0.4,
+      "ambient": 25.0,
+      "temperature": 38.1,
+      "expected_temperature": 37.991,
+      "residual": 0.109,
+      "score": 1.037,
+      "status": "normal"
+    },
+    {
+      "load": 0.6,
+      "ambient": 25.0,
+      "temperature": 54.0,
+      "expected_temperature": 42.009,
+      "residual": 11.991,
+      "score": 114.483,
+      "status": "anomaly"
+    },
+    {
+      "load": 1.5,
+      "ambient": 25.0,
+      "temperature": 60.0,
+      "expected_temperature": 60.086,
+      "residual": -0.086,
+      "score": 0.818,
+      "status": "out_of_domain"
+    }
+  ]
+}

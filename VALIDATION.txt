@@ -1,0 +1,9 @@
+Validation date: 2026-10-08 (Asia/Seoul)
+test_degenerate_training (test_main.ThermalTests.test_degenerate_training) ... ok
+test_held_out_statuses (test_main.ThermalTests.test_held_out_statuses) ... ok
+test_invalid_split (test_main.ThermalTests.test_invalid_split) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+OK
